@@ -37,6 +37,5 @@ def get_incidents(unit_type):
   # return the list of incident dictionaries using json.dumps()
   return json.dumps(incidents)
 
-
 if __name__ == '__main__':
     app.run(debug=True)
